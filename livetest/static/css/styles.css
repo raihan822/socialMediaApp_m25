@@ -1,0 +1,24 @@
+/* Filter Form Styling */
+.filter-form .form-control,
+.filter-form .form-select {
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+}
+
+.filter-form .btn {
+    padding: 0.5rem 1.5rem;
+    border-radius: 8px;
+}
+
+/* Search Input Icon */
+.search-wrapper {
+    position: relative;
+}
+.search-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6c757d;
+}
